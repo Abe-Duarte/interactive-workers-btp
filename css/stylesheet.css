@@ -76,4 +76,15 @@ body {
 
 .footer {
     background-image: url(../img/buildings.png);
+    color: #FFF;
+}
+
+.footer-bg {
+    width: 100%;
+    height: auto;
+    background-color: rgba(23, 22, 32, 1);
+}
+
+.main-banner {
+    min-height: 100%;
 }

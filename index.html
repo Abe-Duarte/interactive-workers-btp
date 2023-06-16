@@ -10,17 +10,17 @@
     <body>
         <div class="container-fluid">
             <div class="row justify-content-between call-to-action">
-                <div class="col col-xl-7 col-lg-9 align-self-center">
+                <div class="col col-12 col-xl-7 align-self-center p-5">
                     <p><span>Talk to one of</span> our representatives</p>
                 </div>
-                <div class="col align-self-center">
+                <div class="col align-self-center d-flex p-5 justify-content-end">
                     <button class="btn jus light-btn" type="button">Chat now</button>
                 </div>
             </div>                
         </div>
         <nav class="navbar navbar-expand-xl">
             <div class="container-fluid">
-                <div class="row justify-content-between">
+                <div class="row d-flex justify-content-between">
                     <div class="col col-xl-3 col-sm-8 align-self-center">
                         <a class="navbar-brand" href="#"><img class="logo" src="img/IW Logo.png" alt="InteractiveWorkers's Logo"></a>
                     </div>
@@ -29,7 +29,7 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav d-flex justify-content-end align-items-center">
+                            <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="#">How it works</a>
                                 </li>
@@ -51,23 +51,23 @@
                 </div>
         </nav>
         <div class="container-fluid main-banner">
-            <img class="img-fluid bg-img"src="img/main-banner.png" alt="Main banner for InteractiveWorkers">
-            <div class="row justify-content-start">
-                <p><span>InteractiveWorkers:</span><br>General Virtual Assistant.</p>
+            <img srcset="img/main-banner-mobile.png 480w, img/main-banner-1440.png 1440w, img/main-banner-1080.png 1920w"
+            size="(max-width: 600px) 480px, (max-width: 1440px) 1440px, 1920px"
+            class="img-fluid bg-img"
+            src="img/main-banner-1440.png" alt="Main banner for InteractiveWorkers">
+            <div class="row position-relative justify-content-start">
+                <div class="col">
+                    <p><span class="fw-bolder">InteractiveWorkers:</span><br>General Virtual Assistant.</p>
+                    <p>Reduce your workload. Increase your productivity. Save operational costs.</p>
+                    <button class="btn red-btn" type="button">Try a Virtual Assistant</button>
+                </div>
             </div>
-            <div class="row">
-                <p>Reduce your workload. Increase your productivity. Save operational costs.</p>
-            </div>
-            <div class="row">
-                <button class="btn red-btn" type="button">Try a Virtual Assistant</button>
-            </div>
-        </div>
         <div class="container-fluid red-banner">
             <div class="row text-center">
                 <h2>how it works</h2>
             </div>
             <div class="row">
-                <div class="col-9 col-xl-4 align-self-center text-center">
+                <div class="col col-12 col-xl-3 align-self-center text-center">
                     <img class="img-fluid" src="img/cooperate-vector.png" alt="Cooperate">
                     <h3>1. COOPERATE</h3>
                     <p>We talk about your remote personnel needs.</p>
@@ -118,15 +118,16 @@
         </div>
         <div class="container-fluid">
             <div class="row justify-content-between call-to-action">
-                <div class="col align-self-center">
+                <div class="col col-12 col-xl-7 align-self-center p-5">
                     <p><span>Talk to one of</span> our representatives</p>
                 </div>
-                <div class="col align-self-center">
+                <div class="col align-self-center d-flex p-5 justify-content-end">
                     <button class="btn jus light-btn" type="button">Chat now</button>
                 </div>
             </div>                
         </div>
         <div class="container-fluid">
+            <div class="footer-bg">
             <div class="row d-flex justify-content-between footer">
                 <div class="col-3">
                     <img src="img/iw-white-logo.png" alt="" class="img-fluid">
@@ -155,6 +156,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </body>
