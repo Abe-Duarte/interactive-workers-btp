@@ -39,6 +39,7 @@ input {
     width: auto;
     background-color: #A4080E;
     color: #FFF;
+    font-size: 1.15em;
 }
 
 .call-to-action {
@@ -79,6 +80,7 @@ input {
 
 .navbar {
     padding: 2em;
+    background-color: #FFF;
 }
 
 .navbar-collapse {
@@ -89,6 +91,7 @@ input {
 .footer {
     background-image: url(../img/buildings.png);
     color: #FFF;
+    background-repeat: no-repeat;
 }
 
 .footer-bg {
@@ -148,7 +151,6 @@ input {
 
 .virtual-assistant-hero {
     background-image: url(../img/VA-banner.png);
-    min-height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -163,4 +165,8 @@ input {
 .nav-item::hover {
     background-color: #A4080E;
     color: #FFF;
+}
+
+.dark-blue-bg {
+    background-color: #171620;
 }
