@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -32,7 +32,7 @@ input {
 }
 
 .light-btn {
-    border-radius: 14.45px;
+    border-radius: 8.7px;
     color: #A4080E;
     background-color: #FFF;
     border: none;
@@ -234,7 +234,7 @@ input {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .footer {
         background-image: url(../img/mobile-buildings.png);
         background-size: cover;
@@ -268,7 +268,14 @@ input {
     }
 
     .call-to-action button {
-        font-size: 3em;
+        font-size: 7vw;
+    }
+
+    .call-to-action h1 {
+        font-size: 7vw;
+        text-align: center;
+        font-weight: 800;
+        font-style: normal;
     }
 
     .hero button {
@@ -310,7 +317,7 @@ input {
     }
 
     .navbar-brand {
-        width: 85%;   
+        width: 100%;   
     }
 
     .caracteristics-banner h1 {
