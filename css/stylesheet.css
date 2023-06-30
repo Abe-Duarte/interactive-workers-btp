@@ -45,7 +45,7 @@ input {
 }
 
 .red-btn {
-  border-radius: 7x;
+  border-radius: 14px;
   width: auto;
   background-color: #a4080e;
   color: #fff;
@@ -94,6 +94,10 @@ input {
   background-color: #fff;
 }
 
+.nav-link {
+  border-radius: 14px;
+}
+
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;
@@ -106,8 +110,9 @@ input {
   background-position: center;
 }
 
-.hoover-link::hover {
+.hoover-link:hover {
   background-color: #a4080e;
+  border-radius: 14px;
   color: #fff;
 }
 
@@ -154,10 +159,14 @@ input {
   min-height: 60vh;
 }
 
+.intro {
+  margin-left: 10vw;
+}
+
 .intro button {
   font-size: 2vw;
-  padding: 2px 15px;
-  font-weight: 600;
+  padding: 10px 15px;
+  font-weight: 500;
 }
 
 .intro h1,
@@ -175,12 +184,16 @@ input {
   font-weight: 900 !important;
 }
 
+.how {
+  line-height: normal;
+}
+
 .how h2 {
-  font-size: 2.2vw;
+  font-size: 2.5vw;
 }
 
 .how p {
-  font-size: 2.2vw;
+  font-size: 2vw;
   line-height: normal;
 }
 
@@ -490,7 +503,6 @@ input {
     background: url(../img/main-banner-1440.png) no-repeat;
     background-size: cover;
     background-position: top;
-    height: 75vh;
   }
 }
 
