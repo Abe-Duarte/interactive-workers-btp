@@ -173,7 +173,12 @@ input {
 }
 
 .how h2 {
-  font-size: 5vw;
+  font-size: 2.2vw;
+}
+
+.how p {
+  font-size: 2.2vw;
+  line-height: normal;
 }
 
 .bg-red {
@@ -181,7 +186,7 @@ input {
 }
 
 .rounded {
-  border: 1px solid #fff;
+  border: 0.27px solid #fff;
   padding: 1vw;
 }
 
