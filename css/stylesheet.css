@@ -166,6 +166,7 @@ input {
 
 .intro p {
   font-size: 3vw;
+  width: 90%;
 }
 
 .intro span {
@@ -187,7 +188,12 @@ input {
 
 .rounded {
   border: 0.27px solid #fff;
-  padding: 1vw;
+  border-radius: 34px !important;
+}
+
+.rounded h2{
+  font-size: 3vw;
+  margin-bottom: 0;
 }
 
 .red-input-field {
