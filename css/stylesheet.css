@@ -160,7 +160,8 @@ input {
   font-weight: 600;
 }
 
-.intro h1, .intro p {
+.intro h1,
+.intro p {
   font-size: 2.8vw;
 }
 
@@ -171,6 +172,7 @@ input {
 
 .intro span {
   font-size: 4vw;
+  font-weight: 900 !important;
 }
 
 .how h2 {
@@ -182,6 +184,21 @@ input {
   line-height: normal;
 }
 
+.lead p {
+  text-align: justify;
+  font-size: 2vw;
+}
+
+.lead h1 {
+  font-size: 3vw;
+  font-weight: 800 !important;
+}
+
+.lead li {
+  font-size: 2vw;
+  font-weight: 800 !important;
+}
+
 .bg-red {
   background-color: #a4080e;
 }
@@ -191,7 +208,7 @@ input {
   border-radius: 34px !important;
 }
 
-.rounded h2{
+.rounded h2 {
   font-size: 3vw;
   margin-bottom: 0;
 }
@@ -334,6 +351,26 @@ input {
   .hero p {
     font-size: 4vw;
     line-height: normal;
+  }
+
+  .lead p {
+    text-align: justify;
+    font-size: 4vw;
+    padding: 0 7vw !important;
+  }
+  
+  .lead h1 {
+    font-size: 5vw;
+    font-weight: 800 !important;
+  }
+  
+  .lead li {
+    font-size: 4vw;
+    font-weight: 800 !important;
+  }
+
+  .lead ul {
+    padding-left: 14vw !important;
   }
 
   input {
