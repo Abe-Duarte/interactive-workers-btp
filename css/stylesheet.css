@@ -95,6 +95,7 @@ input {
 }
 
 .nav-link {
+  font-size: 1.5vw;
   border-radius: 14px;
 }
 
@@ -160,12 +161,12 @@ input {
 }
 
 .intro {
-  margin-left: 10vw;
+  margin-left: 4vw;
 }
 
 .intro button {
   font-size: 2vw;
-  padding: 10px 15px;
+  padding: 10px 10px;
   font-weight: 500;
 }
 
@@ -246,14 +247,69 @@ input {
   background-image: url(../img/VA-banner.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
-  background-position: center;
+  background-position: top;
+}
+
+.virtual-assistant-hero h2 {
+  font-size: 2vw;
+}
+
+.virtual-assistant-hero li {
+  font-size: 1vw;
+}
+
+.virtual-assistant-hero img {
+ width: 1vw;
+}
+
+.hero-left-banner > div > div {
+  height: 100%;
+}
+
+.hero-left-banner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  
+}
+.hero-left-banner ul:before {
+  content: "";
+  display: inline-block;
+  width: 4.5px;
+  background: #a4080e;
+  position: absolute;
+  left: 3px;
+  top: 5px;
+  height: 100%;
+  border-radius: 40px;
+}
+.hero-left-banner ul li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 15px;
+  list-style-position: inside;
+}
+.hero-left-banner ul li:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #a4080e;
+  position: absolute;
+  left: 0;
+  top: 30%;
+  border-radius: 10px;
+}
+
+.hero-left-banner > div > div {
+  height: initial;
 }
 
 .red-accent {
   background-color: #a4080e;
   color: #fff;
-  padding: 5px;
+  padding: 3px;
 }
 
 .nav-item::hover {
@@ -303,7 +359,7 @@ input {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .footer {
     background-image: url(../img/mobile-buildings.png);
     background-size: cover;
@@ -317,16 +373,58 @@ input {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.33);
   }
 
+  /* Me quede aqui */
   .virtual-assistant-hero h2 {
-    font-size: 4em;
+    font-size: 6vw;
+    font-weight: 800;
   }
 
-  .virtual-assistant-hero li {
-    font-size: 40px;
+  .hero-left-banner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
   }
+  .hero-left-banner ul:before {
+    content: "";
+    display: inline-block;
+    width: 3.5px;
+    background: #a4080e;
+    position: absolute;
+    left: 3px;
+    top: 5px;
+    height: 100%;
+    border-radius: 40px;
+  }
+  .hero-left-banner ul li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    list-style-position: inside;
+  }
+  .hero-left-banner ul li:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #a4080e;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+  .hero-left-banner li {
+    font-size: 4vw;
+    font-weight: 600;
+  }
+
+
+
+  /* Me quede aqui */
 
   .caracteristics-banner img {
     width: 30%;
@@ -441,9 +539,13 @@ input {
 /*//// RESPONSIVE IMAGES ////*/
 /*//// RESPONSIVE FONTS ////*/
 
-@media (max-width: 767px) {
-  html {
-    font-size: 1em;
+@media (min-width: 570px) {
+  .virtual-assistant-hero h2{
+    font-size: 4vw;
+  }
+
+  .virtual-assistant-hero li {
+    font-size: 3vw;
   }
 }
 
@@ -494,7 +596,7 @@ input {
     background: url(../img/main-banner-1080.png);
     background-size: cover;
     background-position: center;
-    min-height: 75vh;
+    min-height: 50vh;
   }
 }
 
@@ -503,6 +605,54 @@ input {
     background: url(../img/main-banner-1440.png) no-repeat;
     background-size: cover;
     background-position: top;
+  }
+
+  .hero-left-banner > div > div {
+    height: inherit;
+  }
+  
+  .hero-left-banner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+  }
+  .hero-left-banner ul:before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    background: #a4080e;
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    height: 100%;
+    border-radius: 40px;
+  }
+  .hero-left-banner ul li {
+    position: relative;
+    padding-left: 100px;
+    margin-bottom: 15px;
+    list-style-position: inside;
+  }
+  .hero-left-banner ul li:before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: #a4080e;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+  .hero-left-banner h2 {
+    font-size: 3vw;
+  } 
+
+  .hero-left-banner li {
+    font-size: 2vw;
   }
 }
 
