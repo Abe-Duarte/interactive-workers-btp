@@ -229,8 +229,8 @@ input {
 
 .red-input-field {
   background-color: rgba(221, 39, 45, 0.2);
-  min-height: 100%;
 }
+
 
 .form {
   background: url(../img/waves-vector.png) no-repeat;
@@ -240,8 +240,29 @@ input {
 }
 
 .form h1 {
-  font-size: 3em;
+  font-size: 4vw;
 }
+
+.form h2 {
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+.form-floating label {
+  /* font-size: 4vw; */
+  padding: 0;
+}
+
+.form-floating label::after {
+  color: gray !important;
+  background-color: transparent !important;
+}
+
+.form-floating input {
+  height: 7.5vh !important;
+  /* font-size: 3.5vw; */
+}
+
 
 .virtual-assistant-hero {
   background-image: url(../img/VA-banner.png);
@@ -259,7 +280,7 @@ input {
 }
 
 .virtual-assistant-hero img {
- width: 1vw;
+  width: 1vw;
 }
 
 .hero-left-banner > div > div {
@@ -271,12 +292,13 @@ input {
   margin: 0;
   padding: 0;
   position: relative;
+  max-width: 65%;
   
 }
 .hero-left-banner ul:before {
   content: "";
   display: inline-block;
-  width: 4.5px;
+  width: 5px;
   background: #a4080e;
   position: absolute;
   left: 3px;
@@ -322,9 +344,9 @@ input {
 }
 
 .red-line {
-  height: auto;
+  min-height: 7vh;
   border-radius: 10px;
-  width: 5px;
+  width: 1vw;
   background-color: #a4080e;
 }
 
@@ -334,8 +356,12 @@ input {
   background-size: contain;
 }
 
+.caracteristics-banner h1 {
+  font-size: 3.5vw;
+}
+
 .footer img {
-  width: 70%;
+  width: 90%;
 }
 
 .footer i {
@@ -357,9 +383,13 @@ input {
     background-size: cover;
     min-height: 25vh;
   }
+
+  .virtual-assistant-hero {
+    min-height: 110vh;
+  }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .footer {
     background-image: url(../img/mobile-buildings.png);
     background-size: cover;
@@ -373,6 +403,13 @@ input {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+  }
+
+  .red-line {
+    height: 8vh;
+    border-radius: 10px;
+    width: 1vw;
+    background-color: #a4080e;
   }
 
   /* Me quede aqui */
@@ -418,16 +455,18 @@ input {
   }
 
   .hero-left-banner li {
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-weight: 600;
   }
 
-
+  .virtual-assistant-hero{
+    height: 100%;
+  }
 
   /* Me quede aqui */
 
   .caracteristics-banner img {
-    width: 30%;
+    width: 20vw;
   }
 
   .form button {
@@ -485,7 +524,19 @@ input {
   }
 
   input {
-    height: 100%;
+    height: 8vh !important;
+  }
+
+  .form h1 {
+    font-size: 6vw;
+  }
+  
+  .form h2 {
+    font-size: 5vw;
+    font-weight: 400;
+  }
+  .form-floating input {
+    height: 7vh !important;
   }
 
   .footer span {
@@ -493,13 +544,19 @@ input {
   }
 
   .footer h3 {
-    font-size: 2.5em;
+    font-size: 6vw;
   }
 
   .footer p,
   .footer span {
-    font-size: 1.65em;
-    text-align: left;
+    font-size: 5vw;
+  }
+
+  .footer a {
+    font-size: 4vw;
+    text-decoration: none;
+    color: white;
+    
   }
 
   .navbar-nav a {
@@ -524,20 +581,29 @@ input {
   }
 
   .caracteristics-banner h1 {
-    font-size: 4em;
+    font-size: 5vw;
   }
 
   .caracteristics-banner h2 {
-    font-size: 2.5em;
+    font-size: 4vw;
   }
 
   .caracteristics-banner button {
-    font-size: 3em;
+    font-size: 4vw;
   }
 }
 
 /*//// RESPONSIVE IMAGES ////*/
 /*//// RESPONSIVE FONTS ////*/
+@media (max-width:500px) {
+  .red-line {
+    height: 9vh;
+    border-radius: 10px;
+    width: 1vw;
+    background-color: #a4080e;
+  }
+}
+
 
 @media (min-width: 570px) {
   .virtual-assistant-hero h2{
@@ -545,13 +611,23 @@ input {
   }
 
   .virtual-assistant-hero li {
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
+  
 }
 
 @media (min-width: 768px) {
   html {
     font-size: 1rem;
+  }
+}
+
+@media (max-width:768px) {
+  .red-line {
+    height: 10vh;
+    border-radius: 10px;
+    width: 1vw;
+    background-color: #a4080e;
   }
 }
 
@@ -561,11 +637,11 @@ input {
   }
 
   .caracteristics-banner h1 {
-    font-size: 3em;
+    font-size: 4vw;
   }
 
   .caracteristics-banner h2 {
-    font-size: 1.75em;
+    font-size: 1.5vw;
   }
 
   .caracteristics-banner button {
@@ -573,17 +649,32 @@ input {
   }
 
   .form-input {
-    height: 50px;
+    height: 30%;
   }
 
   .footer i {
     font-size: 25px;
+  }
+
+  .red-line {
+    height: 5vh;
+    border-radius: 10px;
+    width: 1vw;
+    background-color: #a4080e;
   }
 }
 
 @media (min-width: 1440px) {
   html {
     font-size: 1.2em;
+  }
+
+  .hero-left-banner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    max-width: 100%;
   }
 }
 
@@ -608,7 +699,7 @@ input {
   }
 
   .hero-left-banner > div > div {
-    height: inherit;
+    height: initial;
   }
   
   .hero-left-banner ul {
@@ -616,15 +707,15 @@ input {
     margin: 0;
     padding: 0;
     position: relative;
-    
+    max-width: 80%;
   }
   .hero-left-banner ul:before {
     content: "";
     display: inline-block;
-    width: 14px;
+    width: 12px;
     background: #a4080e;
     position: absolute;
-    left: 4px;
+    left: 4.5px;
     top: 5px;
     height: 100%;
     border-radius: 40px;
@@ -648,7 +739,8 @@ input {
   }
 
   .hero-left-banner h2 {
-    font-size: 3vw;
+    font-size: 4vw;
+    margin-left: 1vw;
   } 
 
   .hero-left-banner li {
