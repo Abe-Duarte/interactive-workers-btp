@@ -626,12 +626,12 @@ input {
 
 @media (min-width: 750px) {
   .virtual-assistant-hero h2 {
-    font-size: 1.5vw;
+    font-size: 3vw;
     font-weight: 800;
   }
 
   .virtual-assistant-hero li {
-    font-size: 1.5vw;
+    font-size: 3vw;
   }
 }
 
@@ -665,6 +665,15 @@ input {
 
   .caracteristics-banner button {
     font-size: 1.75em;
+  }
+
+  .virtual-assistant-hero h2 {
+    font-size: 2vw;
+    font-weight: 800;
+  }
+
+  .virtual-assistant-hero li {
+    font-size: 2vw;
   }
 
   .form-input {
