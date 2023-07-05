@@ -41,7 +41,7 @@ input {
   color: #a4080e;
   background-color: #fff;
   border: none;
-  font-size: 2em;
+  font-size: 2vw;
 }
 
 .red-btn {
@@ -111,6 +111,11 @@ input {
   background-position: center;
 }
 
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
 .hoover-link:hover {
   background-color: #a4080e;
   border-radius: 14px;
@@ -165,23 +170,23 @@ input {
 }
 
 .intro button {
-  font-size: 2vw;
+  font-size: 1.5vw;
   padding: 10px 10px;
   font-weight: 500;
 }
 
 .intro h1,
 .intro p {
-  font-size: 2.8vw;
+  font-size: 2vw;
 }
 
 .intro p {
-  font-size: 3vw;
+  font-size: 1.5vw;
   width: 90%;
 }
 
 .intro span {
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: 900 !important;
 }
 
@@ -190,11 +195,11 @@ input {
 }
 
 .how h2 {
-  font-size: 2.5vw;
+  font-size: 1.5vw;
 }
 
 .how p {
-  font-size: 2vw;
+  font-size: 1vw;
   line-height: normal;
 }
 
@@ -223,14 +228,13 @@ input {
 }
 
 .rounded h2 {
-  font-size: 3vw;
+  font-size: 2vw;
   margin-bottom: 0;
 }
 
 .red-input-field {
   background-color: rgba(221, 39, 45, 0.2);
 }
-
 
 .form {
   background: url(../img/waves-vector.png) no-repeat;
@@ -240,7 +244,7 @@ input {
 }
 
 .form h1 {
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 .form h2 {
@@ -249,7 +253,7 @@ input {
 }
 
 .form-floating label {
-  /* font-size: 4vw; */
+  font-size: 2vw;
   padding: 0;
 }
 
@@ -259,10 +263,9 @@ input {
 }
 
 .form-floating input {
-  height: 7.5vh !important;
-  /* font-size: 3.5vw; */
+  height: 8vw !important;
+  font-size: 2vw;
 }
-
 
 .virtual-assistant-hero {
   background-image: url(../img/VA-banner.png);
@@ -293,8 +296,8 @@ input {
   padding: 0;
   position: relative;
   max-width: 65%;
-  
 }
+
 .hero-left-banner ul:before {
   content: "";
   display: inline-block;
@@ -344,7 +347,7 @@ input {
 }
 
 .red-line {
-  min-height: 7vh;
+  height: 4vh;
   border-radius: 10px;
   width: 1vw;
   background-color: #a4080e;
@@ -361,11 +364,11 @@ input {
 }
 
 .footer img {
-  width: 90%;
+  width: 70%;
 }
 
 .footer i {
-  width: 2em;
+
   font-size: 35px;
 }
 
@@ -389,7 +392,7 @@ input {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 770px) {
   .footer {
     background-image: url(../img/mobile-buildings.png);
     background-size: cover;
@@ -423,7 +426,7 @@ input {
     margin: 0;
     padding: 0;
     position: relative;
-    
+    max-width: 100%;
   }
   .hero-left-banner ul:before {
     content: "";
@@ -455,30 +458,39 @@ input {
   }
 
   .hero-left-banner li {
-    font-size: 3.5vw;
+    font-size: 4vw;
     font-weight: 600;
   }
 
-  .virtual-assistant-hero{
+  .virtual-assistant-hero {
     height: 100%;
   }
 
   /* Me quede aqui */
 
   .caracteristics-banner img {
-    width: 20vw;
+    width: 12vw;
   }
 
   .form button {
-    font-size: 3em;
+    font-size: 5vw;
+  }
+
+  .form-floating label {
+    font-size: 4vw;
+    padding: 0;
+  }
+  .form-floating input {
+    height: 6vh !important;
+    font-size: 3vw;
   }
 
   .call-to-action button {
-    font-size: 7vw;
+    font-size: 5vw;
   }
 
   .call-to-action h1 {
-    font-size: 6vw;
+    font-size: 5vw;
     text-align: center;
     font-weight: 800;
     font-style: normal;
@@ -503,19 +515,28 @@ input {
     line-height: normal;
   }
 
+  .how h2 {
+    font-size: 2.5vw;
+  }
+  
+  .how p {
+    font-size: 2vw;
+    line-height: normal;
+  }
+
   .lead p {
     text-align: justify;
-    font-size: 4vw;
+    font-size: 3vw;
     padding: 0 7vw !important;
   }
-  
+
   .lead h1 {
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 800 !important;
   }
-  
+
   .lead li {
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: 800 !important;
   }
 
@@ -528,15 +549,15 @@ input {
   }
 
   .form h1 {
-    font-size: 6vw;
-  }
-  
-  .form h2 {
     font-size: 5vw;
+  }
+
+  .form h2 {
+    font-size: 4vw;
     font-weight: 400;
   }
   .form-floating input {
-    height: 7vh !important;
+    height: 12vw !important;
   }
 
   .footer span {
@@ -544,19 +565,18 @@ input {
   }
 
   .footer h3 {
-    font-size: 6vw;
+    font-size: 5vw;
   }
 
   .footer p,
   .footer span {
-    font-size: 5vw;
+    font-size: 3vw;
   }
 
   .footer a {
-    font-size: 4vw;
+    font-size: 3vw;
     text-decoration: none;
     color: white;
-    
   }
 
   .navbar-nav a {
@@ -595,7 +615,7 @@ input {
 
 /*//// RESPONSIVE IMAGES ////*/
 /*//// RESPONSIVE FONTS ////*/
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .red-line {
     height: 9vh;
     border-radius: 10px;
@@ -604,16 +624,15 @@ input {
   }
 }
 
-
-@media (min-width: 570px) {
-  .virtual-assistant-hero h2{
-    font-size: 4vw;
+@media (min-width: 750px) {
+  .virtual-assistant-hero h2 {
+    font-size: 1.5vw;
+    font-weight: 800;
   }
 
   .virtual-assistant-hero li {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
   }
-  
 }
 
 @media (min-width: 768px) {
@@ -622,7 +641,7 @@ input {
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .red-line {
     height: 10vh;
     border-radius: 10px;
@@ -637,7 +656,7 @@ input {
   }
 
   .caracteristics-banner h1 {
-    font-size: 4vw;
+    font-size: 2vw;
   }
 
   .caracteristics-banner h2 {
@@ -653,18 +672,18 @@ input {
   }
 
   .footer i {
-    font-size: 25px;
+    font-size: 3vw;
   }
 
   .red-line {
-    height: 5vh;
+    height: 3.5vh;
     border-radius: 10px;
-    width: 1vw;
+    width: 0.5vw;
     background-color: #a4080e;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   html {
     font-size: 1.2em;
   }
@@ -675,6 +694,31 @@ input {
     padding: 0;
     position: relative;
     max-width: 100%;
+  }
+
+  .hero {
+    background: url(../img/main-banner-1440.png);
+    background-size: cover;
+    background-position: top;
+    min-height: 45vw;
+  }
+
+  .form-floating input {
+    height: 4vw !important;
+    font-size: 1vw;
+  }
+
+  .form-floating label {
+    font-size: 1vw;
+    padding: 0;
+  }
+
+  .form h1 {
+    font-size: 2vw;
+  }
+  .form h2 {
+    font-size: 1.5vw;
+    font-weight: 400;
   }
 }
 
@@ -687,7 +731,7 @@ input {
     background: url(../img/main-banner-1080.png);
     background-size: cover;
     background-position: center;
-    min-height: 50vh;
+    min-height: 70vh;
   }
 }
 
@@ -701,7 +745,7 @@ input {
   .hero-left-banner > div > div {
     height: initial;
   }
-  
+
   .hero-left-banner ul {
     list-style: none;
     margin: 0;
@@ -739,12 +783,23 @@ input {
   }
 
   .hero-left-banner h2 {
-    font-size: 4vw;
+    font-size: 3vw;
     margin-left: 1vw;
-  } 
+  }
 
   .hero-left-banner li {
     font-size: 2vw;
+  }
+
+
+}
+
+@media (min-width: 1920px) {
+  .hero {
+    background: url(../img/main-banner-1080.png);
+    background-size: cover;
+    background-position: top;
+    min-height: 50vw;
   }
 }
 
