@@ -13,13 +13,6 @@ body {
 }
 
 h1,
-h2,
-h3,
-p {
-  text-wrap: balance;
-}
-
-h1,
 h2 {
   line-height: 1.5;
 }
